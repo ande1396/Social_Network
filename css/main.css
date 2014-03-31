@@ -1,0 +1,178 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	margin-left:0px;
+    margin-top:0px;
+    font-family: 'Droid Sans';
+
+}
+
+body {
+	background: aliceblue;
+}
+
+header {
+	width: 100%;
+	height: 77px;
+	
+	min-width: 980px;
+	z-index: 200;
+	background: #1884C5;
+	position: relative;
+	margin-left:0px;
+    margin-top:0px;
+    font-family: 'Droid Sans';
+    margin: 0 auto;
+}
+	
+.wrapper  {
+	margin: 0 auto;
+	width: 1280px;
+	height: 900px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: 300;
+	background: #FFF;
+	position: relative;
+}
+
+.paperstreet {
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+	.paperstreet span {
+		font-size: 16px;
+	}
+
+.left {
+	width: 560px;
+	float: left;
+	margin-left: 15px;
+}
+
+.form-group {
+	width: 300px;
+}
+
+#login {
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin-left: 70px;
+}
+
+	#login h2 {
+		color: #1884C5;
+	}
+
+	#login-btn {
+		width: 80px;
+		height: 30px;
+		color: #FFF;
+		background: #1884C5;
+		border-radius: 5px;
+		border: none;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+.alert-danger {
+	float: right;
+}
+
+#register {
+	width: 300px;
+	float: left;
+	text-align: center;
+	margin-left: 70px;
+	
+}
+
+	#register h2 {
+		color: #1884C5;
+		margin-left: 0px;
+	}
+
+.form-control {
+	width: 300px; 
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.alert-danger {
+	float: right;
+	width: 130px;
+	color: red;
+}
+
+#fail {
+	float: left;
+	color: red;
+	margin: 0;
+}
+
+#success {
+	color: green;
+	font-weight: bold;
+}
+
+#submit {
+	width: 110px;
+	height: 30px;
+	background: #1884C5;
+	color: #FFF;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* ================================== right ====================== */
+
+.right {
+	float: right;
+	width: 705px;
+	height: 800px;
+}
+
+
+	.right p {
+		font-size: 20px;
+		font-weight: 300;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 25px;
+		line-height: 2;
+
+	}
+
+	.right #main-p {
+		font-size: 32px;
+		font-weight: 300;
+		color: #1884C5;
+		margin-left: 20px;
+	}
+
+input:focus, textarea:focus {
+	border: 2px solid rgb(24, 132, 197);
+	/* new */
+	background-color: rgba(24,132,197,1);
+	color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="date"],input[type="password"],textarea, select {
+	font-size: 1em;
+	-webkit-transition: background-color .75s ease;
+	-moz-transition: background-color .75s ease;
+	-o-transition: background-color .75s ease;
+	transition: background-color .75s ease;
+}
